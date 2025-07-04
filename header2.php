@@ -37,7 +37,7 @@
                                         <a class="dropdown-item" href="../Features/Multilingual-Support.php">Multilingual Support (45+ Languages)</a>
                                     </li>
                                       <li>
-                                        <a class="dropdown-item" href="../Features/Verifiable -Certificates.php">Verifiable Certificates</a>
+                                        <a class="dropdown-item" href="../Features/AI-Course-Generation.php">Verifiable Certificates</a>
                                     </li>
                                        <li>
                                         <a class="dropdown-item" href="../Features/Pre-Generated-Courses.php">Pre-Generated Courses</a>
@@ -62,12 +62,6 @@
                                       <li>
                                         <a class="dropdown-item" href="../About-Us/Our-Team.php">Our Team</a>
                                     </li>
-                                      <li>
-                                        <a class="dropdown-item" href="../About-Us/Awards-&-Recognition.php">Awards & Recognition</a>
-                                    </li>
-                                      <li>
-                                        <a class="dropdown-item" href="../About-Us/Careers.php">Careers</a>
-                                    </li>
                                     
                                     <!-- <li>
                                         <a class="dropdown-item" href="About-Us/">Awards & Recognition</a>
@@ -90,25 +84,10 @@
                                     <li>
                                         <a class="dropdown-item" href="../Resources/Blogs.php">Blogs</a>
                                     </li>
-                                     <li>
-                                        <a class="dropdown-item" href="../Resources/Events-&-News.php">Events & News</a>
-                                    </li>
                                     <li>
                                         <a class="dropdown-item" href="https://seekmycourse.support/" target="_blank">Help & Support (FAQs)</a>
                                     </li>
-                                     </li>
-                                      <!-- <li>
-                                        <a class="dropdown-item" href="../Resources/Pre-Generated_Courses.php" >Pre-Generated Courses</a>
-                                    </li>
-                                       <li>
-                                        <a class="dropdown-item" href="../Resources/Practice-Quiz.php" >Pratice Quizzes</a>
-                                    </li> -->
-                                    
-                                     <li>
-                                        <a class="dropdown-item" href="../Resources/Student-Ambassador-Program.php" >Student Ambassador Program</a>
-                                    </li>
                                    
-                               
                                
                                  
                                   
@@ -118,35 +97,17 @@
                              <li class="nav-item">
                                 <a class="nav-link" href="../Pricing.php">Pricing</a>
                             </li>
-                          
 
                             <li class="nav-item">
                                 <a class="nav-link" href="../Contact.php">Contact</a>
                             </li>
-                            
-                            
-                            
                         </ul>
-
-<!-- Login/Signup Buttons for MOBILE ONLY -->
-<div class="mobile-only-buttons mt-4 pt-4 border-top">
-    <a href="https://seekmycourse.com/login" class="btn btn-primary w-100 mb-3"  target="_blank">
-        <i class="ri-user-3-line"></i> Login
-    </a>
-    <a href="https://seekmycourse.com/register" class="btn btn-primary w-100" target="_blank">
-        Sign Up
-    </a>
-</div>
-
                     </div>
                 </div>
             </div>
         </nav>
-        <a data-cursor="pointer" href="https://app.seekmycourse.com/" target="_blank"  class="btn btn-theme d-sm-inline-block d-none"><span>Login</span></a>
-&nbsp;
-&nbsp;
-         </nav>
-        <a data-cursor="pointer" href="https://app.seekmycourse.com/" target="_blank" class="btn btn-theme d-sm-inline-block d-none"><span>Get Started</span></a>
-    
+        <a data-cursor="pointer" href="https://app.seekmycourse.com/" target="_blank" class="btn btn-theme d-sm-inline-block d-none"><span>Login
+                Now</span></a>
+                
     </header>
     <!-- header end -->

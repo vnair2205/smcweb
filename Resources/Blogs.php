@@ -144,7 +144,7 @@
                         <div class="blog-content">
                             <a data-cursor="pointer" href="../Blogs/Beyond-English-Why-Learning-in-Your-Native-Language-Matters.php"> Beyond English: Why Learning in Your Native Language Matters </a>
                             <ul>
-                                <li>21 Mar 2025</li>
+                                <li>21 Mar 2023</li>
                                
                             </ul>
                         </div>
@@ -165,7 +165,7 @@
                         <div class="blog-content">
                             <a data-cursor="pointer" href="../Blogs/Is-Your-Resume-Future-Proof-5-In-Demand-Skills-for-2026.php">Is Your Resume Future-Proof? 5 In-Demand Skills for 2026</a>
                             <ul>
-                                <li>08 Apr 2025</li>
+                                <li>08 Apr 2023</li>
                                 
                             </ul>
                         </div>
@@ -186,7 +186,7 @@
                         <div class="blog-content">
                             <a data-cursor="pointer" href="../Blogs/From-Passive-Viewer-to-Active-Learner-The-Key-to-Real-Knowledge.php">From Passive Viewer to Active Learner: The Key to Real Knowledge </a>
                             <ul>
-                                <li>18 June 2025</li>
+                                <li>18 June 2023</li>
                                 
                             </ul>
                         </div>
@@ -207,7 +207,7 @@
                         <div class="blog-content">
                             <a data-cursor="pointer" href="../Blogs/The-End-of-Generic-Training-AI-for-Corporate-L&D.php"> The End of Generic Training: AI for Corporate L&D</a>
                             <ul>
-                                <li>27 March 2025</li>
+                                <li>27 march 2023</li>
                                
                             </ul>
                         </div>
