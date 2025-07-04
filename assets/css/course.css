@@ -1,0 +1,185 @@
+/*=====================
+    New Course Page CSS
+==========================*/
+
+/* Main Section Layout */
+.course-page-section {
+    padding-bottom: 80px;
+}
+
+/* Sidebar Filters */
+.filters-sidebar {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.filters-sidebar h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.filters-sidebar .filter-list .form-check {
+    margin-bottom: 15px;
+}
+
+.filters-sidebar .filter-list .form-check-label {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.filters-sidebar .form-check-input:checked {
+    background-color: var(--theme-color, #2170FF);
+    border-color: var(--theme-color, #2170FF);
+}
+
+/* Right Side - Course Grid Area */
+.search-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.search-wrapper {
+    position: relative;
+    flex-grow: 1;
+}
+
+.search-container .form-control {
+    height: 50px;
+}
+
+.search-container #search-btn {
+    height: 50px;
+    white-space: nowrap;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ced4da;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.search-container #search-btn:hover {
+    background-color: #20c997;
+    color: #ffffff;
+    border-color: #20c997;
+}
+
+/* Search Suggestions Styles */
+.suggestions-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    z-index: 1000;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.suggestion-item {
+    padding: 12px 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.suggestion-item:hover {
+    background-color: #f5f5f5;
+}
+
+/* New Course Card Styles */
+.course-card-new {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.course-card-new:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.course-card-new .course-thumb img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.course-card-new .course-content {
+    padding: 20px;
+}
+
+.course-card-new .category-badge {
+    display: inline-block;
+    background-color: #f2f4f7;
+    color: var(--theme-color, #2170FF);
+    padding: 5px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.course-card-new .title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.course-card-new .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.course-card-new .btn-enroll {
+    background-color: var(--theme-color, #2170FF);
+    color: #000000;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.course-card-new .btn-enroll:hover {
+    background-color: #1a5bcf;
+    color: #fff;
+}
+
+/* --- NEW LOAD MORE STYLES --- */
+.load-more-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#load-more-btn {
+    background-color: var(--theme-color, #2170FF);
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 40px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+#load-more-btn:hover {
+    background-color: #1a5bcf;
+}
+
+#load-more-btn.hidden {
+    display: none;
+}

@@ -16,7 +16,7 @@
 <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon" />
 
 <!-- Page Title -->
-<title>SeekMYCOURSE | Awards & Recognition</title>
+<title>SeekMYCOURSE | Pre-Generated Courses</title>
 
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,6 +40,7 @@
 
     <!-- style css -->
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+     <link rel="stylesheet" type="text/css" href="../assets/css/course.css">
 
 
 
@@ -51,9 +52,7 @@
 <?php include '../header2.php'; ?>
     <!-- header end -->
 
-
-
-    <!-- breadcrumb section start -->
+<!-- breadcrumb section start -->
     <section class="breadcrumb-section">
         <div class="container">
             <div class="row">
@@ -61,9 +60,9 @@
                     <div class="breadcrumb-content">
                         <div>
                             <h2><img src="../assets/images/breadcrumb-title.png" class="img-fluid"
-                                    alt="title-effect">Awards & Recognition
+                                    alt="title-effect">Explore 8,500+ Online Courses to Advance Your Career
                             </h2>
-                            <p><i class="ri-subtract-line"></i>"Celebrating the milestones that mark our journey of innovation. At SeekMyCourse, we're not just building a platform; we're redefining the future of learning. Explore the awards and recognitions that honor our commitment to pushing the boundaries of educational technology."</p>
+                            <p><i class="ri-subtract-line"></i>"Dive into our extensive library of over 8,500 expert-led courses across development, design, business, and more. Whatever your goal, start your learning journey with SeekMyCourse and master the skills of tomorrow."</p>
                         </div>
                     </div>
                 </div>
@@ -78,190 +77,118 @@
     <!-- breadcrumb section end -->
 
 
-   <!-- blog section start -->
-    <section class="ratio2_3">
+  <!-- Main Course Section Start -->
+    <section class="course-page-section section-b-space">
         <div class="container">
-            <div class="row g-lg-5 g-4">
-                <div class="col-xl-4 col-md-6">
-                    <div class="blog-box">
-                        <div class="blog-img">
-                            <a href="../Awards/SeekMyCourse-Honored-with-Best-Emerging-Technology-in-Education-Award.php"><img src="../assets/images/blog/1.jpg" class="img-fluid"
-                                    alt="blog"></a>
-                            <!-- <label>Design</label> -->
-                            <div class="hover-content">
-                                <a data-cursor="pointer" href="../Awards/SeekMyCourse-Honored-with-Best-Emerging-Technology-in-Education-Award.php"><i class="iconsax"
-                                        data-icon="arrow-right"></i></a>
-                                <!-- <h5>- Vishnu Nair</h5> -->
+            <div class="row">
+                <!-- Filters Sidebar (Left) -->
+                <div class="col-lg-3">
+                    <div class="filters-sidebar">
+                        <h4>Categories</h4>
+                        <div class="filter-list">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="categoryFilter" id="cat-all" value="all" checked>
+                                <label class="form-check-label" for="cat-all">All</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="categoryFilter" id="cat-dev" value="Development">
+                                <label class="form-check-label" for="cat-dev">Development</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="categoryFilter" id="cat-design" value="Design">
+                                <label class="form-check-label" for="cat-design">Design</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="categoryFilter" id="cat-business" value="Business">
+                                <label class="form-check-label" for="cat-business">Business</label>
+                            </div>
+                             <div class="form-check">
+                                <input class="form-check-input" type="radio" name="categoryFilter" id="cat-it" value="IT & Software">
+                                <label class="form-check-label" for="cat-it">IT & Software</label>
                             </div>
                         </div>
-                        <div class="blog-content">
-                            <a data-cursor="pointer" href="../Awards/SeekMyCourse-Honored-with-Best-Emerging-Technology-in-Education-Award.php"> A milestone moment for SeekMyCourse! We were named the "Best Emerging Technology in Education" at the Navbharat Education Conclave on June 14, 2025, in Mumbai.
-                            </a>
-                            <ul>
-                                <li>14 June 2025</li>
-                             
-                            </ul>
-                        </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="blog-box">
-                        <div class="blog-img">
-                            <a href="../Awards/SeekMyCourse-Founder-Vishnu-Nair-Joins-Esteemed-Panel-at-Navbharat's-'Startup-Ki Udaan'.php"><img src="../assets/images/blog/2.jpg" class="img-fluid"
-                                    alt="blog"></a>
-                            <!-- <label>Design</label> -->
-                            <div class="hover-content">
-                                <a data-cursor="pointer" href="../Awards/SeekMyCourse-Founder-Vishnu-Nair-Joins-Esteemed-Panel-at-Navbharat's-'Startup-Ki Udaan'.php"><i class="iconsax"
-                                        data-icon="arrow-right"></i></a>
-                          
+
+                <!-- Course Grid (Right) -->
+                <div class="col-lg-9">
+                    <div class="course-grid-area">
+                        <!-- Search Bar -->
+                        <div class="search-container">
+                            <div class="search-wrapper">
+                                <input type="text" id="course-search-input" class="form-control" placeholder="Search by course title or category..." autocomplete="off">
+                                <div id="search-suggestions" class="suggestions-list"></div>
                             </div>
+                            <button id="search-btn" class="btn">Search</button>
                         </div>
-                        <div class="blog-content">
-                            <a data-cursor="pointer" href="../Awards/SeekMyCourse-Founder-Vishnu-Nair-Joins-Esteemed-Panel-at-Navbharat's-'Startup-Ki Udaan'.php"> "SeekMyCourse Founder, Vishnu Nair, Joins Esteemed Panel at Navbharat's 'Startup Ki Udaan' to Discuss the Untold Story of Mergers and Acquisitions. The untold Indian Startup story"
 
-                            </a>
-                            <ul>
-                                <li>23 June 2025</li>
-                              
-                            </ul>
+                        <!-- Course Cards Grid -->
+                        <div class="row g-4" id="course-grid">
+                            <!-- We now have 20 cards to demonstrate the feature -->
+                            <?php for ($i = 1; $i <= 20; $i++) {
+                                $courses = [
+                                    ['title' => 'Full-Stack Web Development Bootcamp', 'category' => 'Development', 'img' => '7F56D9/FFFFFF?text=Dev'],
+                                    ['title' => 'Complete Figma UI/UX Design Course', 'category' => 'Design', 'img' => '2170FF/FFFFFF?text=Design'],
+                                    ['title' => 'The Complete Financial Analyst Course', 'category' => 'Business', 'img' => '027A48/FFFFFF?text=Business'],
+                                    ['title' => 'Ethical Hacking From Scratch', 'category' => 'IT & Software', 'img' => 'B42318/FFFFFF?text=IT'],
+                                    ['title' => 'Python for Data Science and Machine Learning', 'category' => 'Development', 'img' => '7F56D9/FFFFFF?text=Dev'],
+                                    ['title' => 'Graphic Design Masterclass', 'category' => 'Design', 'img' => '2170FF/FFFFFF?text=Design'],
+                                    ['title' => 'Digital Marketing Masterclass', 'category' => 'Business', 'img' => '027A48/FFFFFF?text=Business'],
+                                    ['title' => 'Cyber Security Essentials', 'category' => 'IT & Software', 'img' => 'B42318/FFFFFF?text=IT'],
+                                    ['title' => 'React - The Complete Guide', 'category' => 'Development', 'img' => '7F56D9/FFFFFF?text=Dev'],
+                                    ['title' => 'Adobe Illustrator for Beginners', 'category' => 'Design', 'img' => '2170FF/FFFFFF?text=Design'],
+                                    ['title' => 'Introduction to Project Management', 'category' => 'Business', 'img' => '027A48/FFFFFF?text=Business'],
+                                    ['title' => 'CompTIA Security+ Certification', 'category' => 'IT & Software', 'img' => 'B42318/FFFFFF?text=IT'],
+                                    ['title' => 'JavaScript Algorithms and Data Structures', 'category' => 'Development', 'img' => '7F56D9/FFFFFF?text=Dev'],
+                                    ['title' => 'Canva for Beginners', 'category' => 'Design', 'img' => '2170FF/FFFFFF?text=Design'],
+                                    ['title' => 'Business Analytics with Excel', 'category' => 'Business', 'img' => '027A48/FFFFFF?text=Business'],
+                                    ['title' => 'AWS Certified Cloud Practitioner', 'category' => 'IT & Software', 'img' => 'B42318/FFFFFF?text=IT'],
+                                    ['title' => 'Vue - The Complete Guide', 'category' => 'Development', 'img' => '7F56D9/FFFFFF?text=Dev'],
+                                    ['title' => 'Motion Graphics with Adobe After Effects', 'category' => 'Design', 'img' => '2170FF/FFFFFF?text=Design'],
+                                    ['title' => 'E-commerce Management', 'category' => 'Business', 'img' => '027A48/FFFFFF?text=Business'],
+                                    ['title' => 'Linux for Beginners', 'category' => 'IT & Software', 'img' => 'B42318/FFFFFF?text=IT'],
+                                    
+                                ];
+                                $course = $courses[($i - 1) % 20];
+                            ?>
+                            <div class="col-md-6 course-card-wrapper" data-category="<?php echo $course['category']; ?>" data-title="<?php echo $course['title']; ?>">
+                                <div class="course-card-new">
+                                    <div class="course-thumb">
+                                        <img src="https://placehold.co/600x400/<?php echo $course['img']; ?>" alt="course thumbnail">
+                                    </div>
+                                    <div class="course-content">
+                                        <span class="category-badge"><?php echo $course['category']; ?></span>
+                                        <div class="title-wrapper">
+                                            <h3 class="title"><?php echo $course['title']; ?></h3>
+                                            <a href="#" class="btn btn-enroll">Enroll</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php } ?>
+                        </div>
+
+                        <!-- No Results Message -->
+                        <div id="no-results-message" style="display: none; text-align: center; padding: 40px;">
+                            <h4>No courses found.</h4>
+                            <p>Try adjusting your search or filter settings.</p>
+                        </div>
+                        
+                        <!-- Load More Button Container -->
+                        <div class="load-more-container">
+                            <button id="load-more-btn" class="btn">Load More</button>
                         </div>
                     </div>
                 </div>
-               
             </div>
-            <nav aria-label="Page navigation" class="theme-pagination">
-                <ul class="pagination">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">
-                                <i class="iconsax" data-icon="chevron-left"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true"> <i class="iconsax" data-icon="chevron-right"></i></span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </section>
-    <!-- blog section end -->
-
-    <!-- service section end -->
+    <!-- Main Course Section End -->
 
 
-    <!-- contact us start -->
-    <section class="info-section section-b-space">
-        <div class="container">
-            <div class="info-box" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100">
-                <div class="hand-effect d-md-block d-none">
-                    <img src="../assets/svg/hand.svg" class="img-fluid left-hand" alt="hand">
-                    <img src="../assets/svg/hand.svg" class="img-fluid right-hand" alt="hand">
-                </div>
-                <h2>Ready to <span>move <img src="../assets/svg/title-effect.svg" class="img-fluid"
-                            alt="title-effect"></span>
-                    ahead?</h2>
-                <p>With the help of our ground-breaking AI tool, unlock the potential of cutting-edge AI technology and
-                    increase your productivity to new heights. Embrace the
-                    future today and let our AI tool redefine what's possible for you.</p>
-                <ul>
-                    <li><img src="../assets/svg/tick.svg" class="img-fluid" alt="tick">Free images for lifetime</li>
-                    <li><img src="../assets/svg/tick.svg" class="img-fluid" alt="tick">Get details on any topic</li>
-                    <li><img src="../assets/svg/tick.svg" class="img-fluid" alt="tick">Quick advisor to help you</li>
-                    <li><img src="../assets/svg/tick.svg" class="img-fluid" alt="tick">15+ category to explore</li>
-                </ul>
-                <a data-cursor="pointer" class="btn-arrow" href="">
-                    <div class="icon-arrow"><i class="iconsax" data-icon="arrow-up"></i></div>Contact us now
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- contact us end -->
 
 
-    <!-- footer section start-->
-    <footer>
-        <div class="container">
-            <div class="footer-row">
-                <div class="footer-main">
-                    <a href="#" class="footer-logo"><img src="../assets/images/logo.svg" class="img-fluid" alt=""></a>
-                    <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
-                    <form>
-                        <div class="input-group">
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Enter your mail">
-                            <a href="" data-cursor="pointer" class="btn-basic">Subscribe</a>
-                        </div>
-                    </form>
-                    <ul class="social-links">
-                        <li><a data-cursor="pointer" href="https://www.facebook.com/"><img
-                                    src="../assets/svg/social/fb.svg" class="img-fluid" alt="facebook"></a></li>
-                        <li><a data-cursor="pointer" href="https://in.linkedin.com/"><img
-                                    src="../assets/svg/social/linkedin.svg" class="img-fluid" alt="linkedin"></a></li>
-                        <li><a data-cursor="pointer" href="https://www.instagram.com/"><img
-                                    src="../assets/svg/social/insta.svg" class="img-fluid" alt="insta"></a></li>
-                        <li><a data-cursor="pointer" href="https://twitter.com/login"><img
-                                    src="../assets/svg/social/twitter.svg" class="img-fluid" alt="twitter"></a></li>
-                    </ul>
-                </div>
-                <div class="link-section">
-                    <div class="footer-title">
-                        <img src="../assets/svg/star.svg" class="img-fluid" alt="star">
-                        Quick Link
-                    </div>
-                    <div class="footer-content">
-                        <ul>
-                            <li><a data-cursor="pointer" href="index.html">Home</a></li>
-                            <li><a data-cursor="pointer" href="service.html">Service</a></li>
-                            <li><a data-cursor="pointer" href="pricing.html">Pricing</a></li>
-                            <li><a data-cursor="pointer" href="contact-us.html">Contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="link-section">
-                    <div class="footer-title">
-                        <img src="../assets/svg/star.svg" class="img-fluid" alt="star">
-                        Our service
-                    </div>
-                    <div class="footer-content">
-                        <ul>
-                            <li><a data-cursor="pointer" href="chat.html">Generate</a></li>
-                            <li><a data-cursor="pointer" href="chat.html">Find Image</a></li>
-                            <li><a data-cursor="pointer" href="chat.html">Email writer</a></li>
-                            <li><a data-cursor="pointer" href="chat.html">Social media</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="link-section">
-                    <div class="footer-title">
-                        <img src="../assets/svg/star.svg" class="img-fluid" alt="star">
-                        Our company
-                    </div>
-                    <div class="footer-content">
-                        <ul>
-                            <li><a data-cursor="pointer" href="login.html">Login</a></li>
-                            <li><a data-cursor="pointer" href="blog-listing.html">Blog listing</a></li>
-                            <li><a data-cursor="pointer" href="blog-grid.html">Blog Grid</a></li>
-                            <li><a data-cursor="pointer" href="blog-details.html">Blog Details</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <h4>@2023 All the Copyright Reserved.</h4>
-                <ul class="footer-links">
-                    <li><a href="terms.html">Privacy Policy </a></li>
-                    <li><a href="terms.html">Terms & Condition </a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <!-- footer section end-->
-
+<?php include '../footer2.php'; ?>
 
     <!-- Tap To Top Button Start -->
     <div class="tap-to-top-box hide">
@@ -298,6 +225,7 @@
 
     <!-- Theme js-->
     <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/course.js"></script>
 
 
 </body>

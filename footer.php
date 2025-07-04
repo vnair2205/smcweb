@@ -99,6 +99,7 @@
                             <li><a data-cursor="pointer" href="https://seekmycourse.support/" target="_blank">Help & Support</a></li>
                             <!-- <li><a data-cursor="pointer" href="Resources/Student-Ambassador-Program.php">Ambassador Program</a></li> -->
                             <li><a data-cursor="pointer" href="Resources/Events-&-News.php">Events & News</a></li>
+                             <li> <a class="dropdown-item" href="Resources/Pre-Generated_Courses.php" >Pre-Generated Courses</a></li>
                 
                         
                         </ul>

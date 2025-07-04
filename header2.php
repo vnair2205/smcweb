@@ -97,17 +97,17 @@
                                         <a class="dropdown-item" href="https://seekmycourse.support/" target="_blank">Help & Support (FAQs)</a>
                                     </li>
                                      </li>
-                                      <!-- <li>
+                                      <li>
                                         <a class="dropdown-item" href="../Resources/Pre-Generated_Courses.php" >Pre-Generated Courses</a>
                                     </li>
-                                       <li>
+                                       <!-- <li>
                                         <a class="dropdown-item" href="../Resources/Practice-Quiz.php" >Pratice Quizzes</a>
-                                    </li> -->
+                                    </li>
                                     
-                                     <!-- <li>
+                                      <li>
                                         <a class="dropdown-item" href="../Resources/Student-Ambassador-Program.php" >Student Ambassador Program</a>
-                                    </li> -->
-                                   
+                                    </li>
+                                    -->
                                
                                
                                  

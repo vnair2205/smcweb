@@ -6724,7 +6724,7 @@ header .offcanvas-backdrop {
 }
 
 .team-card .team-image img {
-  width: 100%;
+  width: 67%;
   height: auto;
 }
 
@@ -6850,3 +6850,14 @@ header .offcanvas-backdrop {
   text-decoration: none;
   align-self: flex-start; /* Aligns button to the left */
 }
+
+
+
+
+
+
+
+
+
+
+

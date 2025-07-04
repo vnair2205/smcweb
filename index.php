@@ -1306,7 +1306,7 @@
                         <div class="team-content">
                             <h3>Suhail M</h3>
                             <p>AR/VR Developer</p>
-                             <a href="https://www.linkedin.com/in/samadsuhail08/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                             <a href="" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
                         </div>
                     </div>
                 </div>

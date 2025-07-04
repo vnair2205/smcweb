@@ -16,7 +16,7 @@
 <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon" />
 
 <!-- Page Title -->
-<title>SeekMYCOURSE | Awards & Recognition</title>
+<title>SeekMYCOURSE | Events & News</title>
 
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,9 +61,9 @@
                     <div class="breadcrumb-content">
                         <div>
                             <h2><img src="../assets/images/breadcrumb-title.png" class="img-fluid"
-                                    alt="title-effect">Awards & Recognition
+                                    alt="title-effect">Events & News
                             </h2>
-                            <p><i class="ri-subtract-line"></i>"Celebrating the milestones that mark our journey of innovation. At SeekMyCourse, we're not just building a platform; we're redefining the future of learning. Explore the awards and recognitions that honor our commitment to pushing the boundaries of educational technology."</p>
+                            <p><i class="ri-subtract-line"></i>"Celebrating the milestones that mark our journey of innovation. At SeekMyCourse, we're not just building a platform; we're redefining the future of learning. Explore the events that honor our commitment to pushing the boundaries of educational technology."</p>
                         </div>
                     </div>
                 </div>
