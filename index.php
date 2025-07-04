@@ -48,7 +48,7 @@
 <body>
 
     <!-- header start -->
-    <?php include 'header.php';?>
+<?php include 'header.php'; ?>
     <!-- header end -->
 
 
@@ -765,7 +765,7 @@
                                     </li>
                                      <li>
                                         <img src="assets/svg/arrow2.svg" class="img-fluid" alt="arrow">
-                                        <h4>Study Group Access</h4>
+                                        <h4>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Study Group Access</h4>
                                     </li>
                                 </ul>
                                 <a class="pricing-link" href="#" data-cursor="pointer">Choose plan</a>
@@ -1028,6 +1028,303 @@
     </section> -->
     <!-- testimonial section end -->
 
+  <!-- Team Section Start -->
+<section class="team-area section-padding">
+    <div class="container">
+        <div class="row align-items-end mb-5">
+            <div class="col-lg-6">
+                <div class="section-title text-start">
+                    <h2 style="color:rgb(3, 218, 198);">Meet Our Team</h2>
+                     <a href="About-Us/Our-Team.php" class="btn btn-primary mt-3">View All</a>
+                </div>
+            </div>
+             <div class="col-lg-6">
+                <p class="mt-3 mt-lg-0">We are a passionate team of innovators and educators dedicated to revolutionizing the learning experience.</p>
+            </div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper team-carousel">
+            <div class="swiper-wrapper">
+                <!-- Team Member 1 -->
+                <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="assets/images/Team/Vishnu-Nair.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Vishnu Nair</h3>
+                            <p>Founder | CEO</p>
+                            <a href="https://www.linkedin.com/in/mr-vishnu-nair/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                             <img src="assets/images/Team/Manoj-Morya.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Manoj Morya</h3>
+                            <p>Co-Founder | CBO </p>
+                             <a href="https://www.linkedin.com/in/manoj-morya-83b75730/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="assets/images/Team/Shradha-Nair.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Shradha Nair</h3>
+                            <p>Co-Founder | CHO</p>
+                             <a href="https://www.linkedin.com/in/shradha-rasote-aa629ba8/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                           <img src="assets/images/Team/Asiya-Nazir.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Asiya Nazir</h3>
+                            <p>Co-Founder | CMO</p>
+                             <a href="https://www.linkedin.com/in/asiya-nazir-057abb22a/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="assets/images/Team/Ravikumar-S.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Ravikumar S</h3>
+                            <p>Co-Founder | CTO</p>
+                             <a href="https://www.linkedin.com/in/rkhackwit/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                           <img src="assets/images/Team/Deepika-Rathod.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Deepika Rathod</h3>
+                            <p>Co-Founder | COO</p>
+                             <a href="https://www.linkedin.com/in/deepika-rathod-24b193ab/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+ <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                           <img src="assets/images/Team/Pradeep-Kumar.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Pradeep Kumar</h3>
+                            <p>Co-Founder | CRO</p>
+                             <a href="https://www.linkedin.com/in/pradeep-kumar-a5b8935/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                           <img src="assets/images/Team/Ritesh-Pal.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>ADV. CA Ritesh Pal</h3>
+                            <p>Sr Advisor Finance & Legal</p>
+                             <a href="https://www.linkedin.com/in/ca-ritesh-prasad-pal-ba13778b" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                          <img src="assets/images/Team/Vipul-Bansal.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>CA Vipul Bansal</h3>
+                            <p>Sr Advisor Financial Strategy</p>
+                             <a href="https://www.linkedin.com/in/finsharkadvisors/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                          <img src="assets/images/Team/Ashok-Bedare.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Adv Ashok Bedare</h3>
+                            <p>Sr Advisor Financial Legal</p>
+                             <a href="https://www.linkedin.com/in/adv-ashok-bedare-8bb533303/?originalSubdomain=in" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                   <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                           <img src="assets/images/Team/Vinod-Kadam.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Vinod Kadam</h3>
+                            <p>Sr Advisor Technology</p>
+                             <a href="https://www.linkedin.com/in/kadam-vinod-17143522/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                   <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                           <img src="assets/images/Team/Dr-S-U-Rathod.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Dr. S. U. Rathod</h3>
+                            <p>Sr Advisor Education</p>
+                             <a class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                   <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                          <img src="assets/images/Team/Shreekant.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Shreekant Kulkarni</h3>
+                            <p>Sr Advisor Education</p>
+                             <a href="https://www.linkedin.com/in/shreekantkulkarni/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                 <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="assets/images/Team/Satya-.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Sathya Narayan</h3>
+                            <p>Project Mananger</p>
+                             <a href="https://www.linkedin.com/in/sathiya-narayanan-59a06223b/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                   <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="assets/images/Team/Sameer-Morya.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Sameer Morya</h3>
+                            <p>Student Ambassador Manager</p>
+                             <a href="https://www.linkedin.com/in/sameer-morya-028a242a2/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                           <img src="assets/images/Team/Dinesh-Kumar.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Dinesh Kumar</h3>
+                            <p>Sr FullStack Developer</p>
+                             <a href="https://www.linkedin.com/in/dinesk-rk/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                      <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                           <img src="assets/images/Team/Kavya-.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Kavya Adhera</h3>
+                            <p>Ui/UX Designer</p>
+                             <a href="https://www.linkedin.com/in/kavya-aadheera-14365a259/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                      <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                          <img src="assets/images/Team/Deekshita-.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Deekshita T</h3>
+                            <p>Marketing Mananger</p>
+                             <a href="https://www.linkedin.com/in/deekshitha-e-715a28253/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                      <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                          <img src="assets/images/Team/Kasi.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Kasivishwanath k</h3>
+                            <p>Sr FullStack Developer</p>
+                             <a href="https://www.linkedin.com/in/kasi-viswa-503406322/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+             
+
+                    <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="assets/images/Team/Suhail-.png" alt="team member">
+                        </div>
+                        <div class="team-content">
+                            <h3>Suhail M</h3>
+                            <p>AR/VR Developer</p>
+                             <a href="https://www.linkedin.com/in/samadsuhail08/" target="_blank" class="linkedin-icon"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Team Section End -->
+
+
+
+<!-- Team Section End -->
+
     <!-- faq section start -->
     <section class="faq-section">
     <div class="container">
@@ -1137,33 +1434,96 @@
 
     <!-- faq section end -->
 
-
-    <!-- contact us start -->
-    <section class="info-section section-b-space">
+    <!-- Blog Section Start -->
+<section class="blog-area section-padding">
     <div class="container">
-        <div class="info-box" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100">
-            <div class="hand-effect d-md-block d-none">
-                <img src="assets/svg/hand.svg" class="img-fluid left-hand" alt="hand">
-                <img src="assets/svg/hand.svg" class="img-fluid right-hand" alt="hand">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center">
+                    <h2 style="color:rgb(3, 218, 198);">Our Latest Blogs</h2>
+                    <p>Stay updated with the latest trends, tips, and insights in the world of learning and technology.</p>
+                </div>
             </div>
-            <h2>Ready to <span>learn <img src="assets/svg/title-effect.svg" class="img-fluid"
-                        alt="title-effect"></span>
-                smarter?</h2>
-            <p>Leave unstructured learning behind. With the help of our groundbreaking AI platform, unlock the potential of personalized education and increase your knowledge to new heights. Embrace the future of learning today and let SeekMYCOURSE redefine what's possible for you.</p>
-            <ul>
-                <li><img src="assets/svg/tick.svg" class="img-fluid" alt="tick">Instant AI Course Generation</li>
-                <li><img src="assets/svg/tick.svg" class="img-fluid" alt="tick">Learn in over 45+ languages</li>
-                <li><img src="assets/svg/tick.svg" class="img-fluid" alt="tick">24/7 AI Tutor to help you</li>
-                <li><img src="assets/svg/tick.svg" class="img-fluid" alt="tick">15,000+ pre-generated courses to explore</li>
-            </ul>
-            <a data-cursor="pointer" class="btn-arrow" href="pricing.html">
-                <div class="icon-arrow"><i class="iconsax" data-icon="arrow-up"></i></div>Choose Your Plan
-            </a>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper blog-carousel">
+            <div class="swiper-wrapper">
+                <!-- Blog Post 1 -->
+                <div class="swiper-slide">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <a href="Blogs/The-Future-is-Personal-Why-AI-is-Revolutionizing-Education.php">
+                                <img src="assets/images/blog/1.jpg" alt="blog thumbnail">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="ri-calendar-line"></i> 14 January 2025</span>
+                            </div>
+                            <h3><a href="Blogs/The-Future-is-Personal-Why-AI-is-Revolutionizing-Education.php">The Future is Personal: Why AI is Revolutionizing Education</a></h3>
+                            <a href="Blogs/The-Future-is-Personal-Why-AI-is-Revolutionizing-Education.php" class="link-btn">Read More <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="swiper-slide">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <a href="Blogs/5-Actionable-Tips-to-Learn-Any-New-Skill-Faster-in-2025.php">
+                               <img src="assets/images/blog/2.jpg" alt="blog thumbnail">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                             <div class="blog-meta">
+                                <span><i class="ri-calendar-line"></i> 11 Feb 2025</span>
+                            </div>
+                            <h3><a href="Blogs/5-Actionable-Tips-to-Learn-Any-New-Skill-Faster-in-2025.php">5 Actionable Tips to Learn Any New Skill Faster in 2025</a></h3>
+                            <a href="Blogs/5-Actionable-Tips-to-Learn-Any-New-Skill-Faster-in-2025.php" class="link-btn">Read More <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="swiper-slide">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <a href="Blogs/Beyond-English-Why-Learning-in-Your-Native-Language-Matters.php">
+                                <img src="assets/images/blog/3.jpg" alt="blog thumbnail">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                             <div class="blog-meta">
+                                <span><i class="ri-calendar-line"></i> 21 Mar 2025</span>
+                            </div>
+                            <h3><a href="Blogs/Beyond-English-Why-Learning-in-Your-Native-Language-Matters.php">Beyond English: Why Learning in Your Native Language Matters </a></h3>
+                            <a href="Blogs/Beyond-English-Why-Learning-in-Your-Native-Language-Matters.php" class="link-btn">Read More <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Post 4 -->
+                <div class="swiper-slide">
+                     <div class="blog-card">
+                        <div class="blog-image">
+                            <a href="Blogs/Is-Your-Resume-Future-Proof-5-In-Demand-Skills-for-2026.php">
+                                <img src="assets/images/blog/4.jpg" alt="blog thumbnail">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                             <div class="blog-meta">
+                                <span><i class="ri-calendar-line"></i> 08 Apr 2025</span>
+                            </div>
+                            <h3><a href="Blogs/Is-Your-Resume-Future-Proof-5-In-Demand-Skills-for-2026.php">Is Your Resume Future-Proof? 5 In-Demand Skills for 2026</a></h3>
+                            <a href="Blogs/Is-Your-Resume-Future-Proof-5-In-Demand-Skills-for-2026.php" class="link-btn">Read More <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+<!-- Blog Section End -->
 
-    <!-- contact us end -->
+
+  
 
     <!-- footer section start-->
    <?php include 'footer.php';?>
